@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #17181f;
+    color: #aaa;
+}
+
+form input[type="text"] {
+    border: none;
+    background:none;
+    padding: 5px 8px ;
+    width: 100%;
+    outline: none;
+    color: #61DAFB;
+}
+form{
+    display: flex;
+    border: 3px solid #30313D;
+    border-radius: 10px;
+    padding: 0px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid #30313D;
+    margin: 40px auto;    
+}
+
+main div.container{
+    width: 100%;
+    margin: 30px;
+}
+
+main div h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+form button{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #61DAFB;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3b95b0 ;
+}
+
+div p.error{
+    color: red;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+div.job{
+    background-color:#30313D;
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+div.job p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.job svg{
+    margin-right: 5px;
+    margin-top: 4px;
+    height: 20px;
+}
+
+div.job button{
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    background-color: #30313D;
+    border: 1px solid #17181f;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+div.job button:hover{
+    background-color: #17181f;
+    color: #aaa;
+}
+
